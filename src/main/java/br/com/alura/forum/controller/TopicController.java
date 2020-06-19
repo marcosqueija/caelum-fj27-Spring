@@ -68,7 +68,7 @@ public class TopicController {
 	public TopicBriefOutputDto listTopicsdto() {
 		Category subcategory = new Category("Java", new Category("Programação"));
 		Course course = new Course("Java e JSF", subcategory);
-		Topic topic = new Topic("Problemas com o JSF", "Erro ao fazer conversão da data",
+		Topic topic = new Topic("Problemas com o JSF", "Erro ao fazer conversão da data x",
 				new User("Fulano", "fulano@gmail.com", "123456"), course);
 		return new TopicBriefOutputDto(topic);
 	}
