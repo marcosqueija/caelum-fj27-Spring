@@ -3,7 +3,6 @@ package br.com.alura.forum.dto.input;
 import br.com.alura.forum.model.topic.domain.Topic;
 import br.com.alura.forum.model.topic.domain.TopicStatus;
 import lombok.Data;
-
 import org.springframework.data.jpa.domain.Specification;
 
 import javax.persistence.criteria.Predicate;
